@@ -1,0 +1,44 @@
+# Core Flask dependencies
+Flask==3.1.0
+flask-cors==5.0.1
+Werkzeug==3.1.3
+python-dotenv==1.0.1
+
+# Data processing and ML
+pandas==2.1.0
+numpy==1.26.4
+scikit-learn==1.3.0
+joblib==1.3.2
+Pillow==11.1.0
+
+# Deep Learning
+torch==2.6.0
+torchvision==0.21.0
+transformers==4.49.0
+
+# HuggingFace dependencies
+huggingface-hub==0.29.1
+safetensors==0.5.3
+tokenizers==0.21.0
+
+# Other dependencies
+blinker==1.9.0
+certifi==2025.1.31
+charset-normalizer==3.4.1
+click==8.1.8
+filelock==3.17.0
+fsspec==2025.2.0
+idna==3.10
+itsdangerous==2.2.0
+Jinja2==3.1.5
+MarkupSafe==3.0.2
+mpmath==1.3.0
+networkx==3.2.1
+packaging==24.2
+PyYAML==6.0.2
+regex==2024.11.6
+requests==2.32.3
+sympy==1.13.1
+tqdm==4.67.1
+typing_extensions==4.12.2
+urllib3==1.26.20

@@ -1,0 +1,11 @@
+{
+  "include": ["backend", "model_development"],
+  "exclude": ["**/node_modules", "**/__pycache__"],
+  "ignore": [],
+  "defineConstant": {},
+  "venvPath": ".venv",
+  "reportMissingImports": true,
+  "reportMissingModuleSource": false,
+  "pythonVersion": "3.9",
+  "pythonPlatform": "Darwin"
+}
