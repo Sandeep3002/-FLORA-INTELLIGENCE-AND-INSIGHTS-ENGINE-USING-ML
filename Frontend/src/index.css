@@ -1,0 +1,39 @@
+/* src/index.css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    font-family: "Poppins", sans-serif;
+  }
+
+  body {
+    @apply antialiased;
+    font-family: var(--font-primary);
+    background-color: var(--color-background);
+    color: var(--color-text-primary);
+  }
+}
+
+/* Custom utility classes */
+@layer components {
+  .nav-link {
+    @apply flex items-center space-x-1 px-4 py-2 rounded-lg
+           transition-colors duration-150;
+  }
+
+  .nav-link-light {
+    @apply text-gray-700 hover:bg-gray-100;
+  }
+
+  .nav-link-dark {
+    @apply text-gray-100 hover:bg-gray-800;
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r;
+  }
+}
